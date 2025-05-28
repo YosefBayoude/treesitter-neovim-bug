@@ -14,7 +14,8 @@ Once in this file, run the following vim commnds in quick succession:
 In my case, I had this bind to a single shortcut, that would run this 10 times, followed by a bunch of (`u`) undos, hence the `u`'s that appear in the demo.
 
 Demo :
-![treesitter-neovim-bug](https://github.com/user-attachments/assets/e2196183-0675-4ec9-9d78-b99e67e4e33a)
+
+![treesitter-neovim-bug2](https://github.com/user-attachments/assets/6e04605d-7453-4fb8-8494-bef7bbff8ac4)
 
 
 In trying to replicate this bug, I generated a large file, and tried all kinds selections using treesitter.
