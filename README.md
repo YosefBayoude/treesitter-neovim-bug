@@ -3,9 +3,16 @@ Some explanation on this bug.
 To reproduce this, simply clone the repo into your `.config` folder, and run :
 
 ```bash
-NVIM_APPNAME=treesitter-neovim-bug nvim +912 -c "set noswapfile" ~/.config/treesitter-neovim-bug/test.lua
+NVIM_APPNAME=treesitter-neovim-bug nvim
 ```
 
+Neovim will automatically open the file `test.lua` and start typing `ddxuj` repeatedly. Nvim will eventually crash.
+
+## before automation
+
+```bash
+NVIM_APPNAME=treesitter-neovim-bug nvim +912 -c "set noswapfile" ~/.config/treesitter-neovim-bug/test.lua
+```
 
 Once in this file, run the following vim commnds in quick succession: 
 
