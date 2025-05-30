@@ -6,7 +6,7 @@ To reproduce this, simply clone the repo into your `.config` folder, and run :
 NVIM_APPNAME=treesitter-neovim-bug nvim
 ```
 
-Neovim will automatically open the file `test.lua` and start typing `ddxuj` repeatedly. Nvim will eventually crash.
+Neovim will automatically open the file `test.lua` and start querying a treesitter node, mutating the file, and then accessing the node, repeatedly. Nvim will eventually crash.
 
 ## before automation
 
